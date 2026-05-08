@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "codeacademyrepo",
+  "compatibility_date": "2026-05-08",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "My Portfolio Website"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}

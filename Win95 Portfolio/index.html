@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nick Fiorentino — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- TASKBAR -->
+  <div class="taskbar">
+    <input type="checkbox" id="start-toggle" class="start-checkbox" />
+    <label for="start-toggle" class="start-btn">
+      <span class="start-logo">⊞</span> Start
+    </label>
+    <nav class="start-menu">
+      <div class="start-sidebar">Windows 95</div>
+      <ul class="start-items">
+        <li><a href="#about">📄 About Me</a></li>
+        <li><a href="#skills">⚙️ Skills</a></li>
+        <li><a href="#projects">📁 My Projects</a></li>
+        <li><a href="#contact">📧 Contact</a></li>
+        <li class="menu-sep"></li>
+        <li><a href="resume.pdf" target="_blank">📃 Resume.pdf</a></li>
+        <li class="menu-sep"></li>
+        <li><a href="https://github.com/FiorentinoGames" target="_blank">🐙 GitHub</a></li>
+      </ul>
+    </nav>
+    <div class="taskbar-sep"></div>
+    <div class="taskbar-windows">
+      <a href="#welcome" class="taskbar-win">🖥️ Nick's Portfolio</a>
+    </div>
+    <div class="taskbar-tray">
+      <span>🔊</span>
+      <span class="tray-clock">12:00 PM</span>
+    </div>
+  </div>
+
+  <!-- DESKTOP -->
+  <div class="desktop">
+
+    <!-- Desktop Icons -->
+    <aside class="desktop-icons">
+      <a href="#about" class="d-icon">
+        <span class="d-icon-img">👤</span>
+        <span class="d-icon-label">About Me</span>
+      </a>
+      <a href="#projects" class="d-icon">
+        <span class="d-icon-img">📁</span>
+        <span class="d-icon-label">My Projects</span>
+      </a>
+      <a href="#skills" class="d-icon">
+        <span class="d-icon-img">⚙️</span>
+        <span class="d-icon-label">Skills</span>
+      </a>
+      <a href="#contact" class="d-icon">
+        <span class="d-icon-img">📧</span>
+        <span class="d-icon-label">Contact</span>
+      </a>
+      <a href="resume.pdf" class="d-icon" target="_blank">
+        <span class="d-icon-img">📄</span>
+        <span class="d-icon-label">Resume.pdf</span>
+      </a>
+    </aside>
+
+    <!-- Windows -->
+    <main class="windows-col">
+
+      <!-- HERO / Welcome -->
+      <section class="win" id="welcome">
+        <div class="win-titlebar">
+          <span class="win-title"><span class="win-icon">🖥️</span> Welcome — Nick's Portfolio</span>
+          <div class="win-controls">
+            <button class="wcb">_</button>
+            <button class="wcb">□</button>
+            <button class="wcb wcb-close">✕</button>
+          </div>
+        </div>
+        <div class="win-body welcome-layout">
+          <div class="welcome-graphic">🖥️</div>
+          <div class="welcome-content">
+            <p class="welcome-eyebrow">Hi, I'm Nick.</p>
+            <h1 class="welcome-title">Full Stack Developer</h1>
+            <p class="welcome-desc">I build clean, functional web applications from database to UI.</p>
+            <div class="btn-row">
+              <a href="#projects" class="win-btn primary">See My Work</a>
+              <a href="#contact" class="win-btn">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT / Notepad -->
+      <section class="win" id="about">
+        <div class="win-titlebar">
+          <span class="win-title"><span class="win-icon">📄</span> about.txt — Notepad</span>
+          <div class="win-controls">
+            <button class="wcb">_</button>
+            <button class="wcb">□</button>
+            <button class="wcb wcb-close">✕</button>
+          </div>
+        </div>
+        <div class="win-menubar">
+          <span>File</span><span>Edit</span><span>Format</span><span>View</span><span>Help</span>
+        </div>
+        <div class="win-body notepad-body">
+          <textarea class="notepad" readonly>I'm a full stack developer passionate about building things that live on the internet.
+I care about writing clean code, thoughtful user experiences, and solving real problems.
+
+When I'm not coding, I'm studying Spanish and Italian.
+I'm always looking to learn new tools and take on challenging projects.
+
+─────────────────────────────────────────
+  10+   Projects Built
+  2+    Years Learning
+  ∞     Cups of Coffee
+─────────────────────────────────────────</textarea>
+        </div>
+        <div class="win-statusbar">
+          <span>Ln 1, Col 1</span><span>100%</span><span>Windows (CRLF)</span><span>UTF-8</span>
+        </div>
+      </section>
+
+      <!-- SKILLS / System Properties -->
+      <section class="win" id="skills">
+        <div class="win-titlebar">
+          <span class="win-title"><span class="win-icon">⚙️</span> System Properties</span>
+          <div class="win-controls">
+            <button class="wcb">_</button>
+            <button class="wcb">□</button>
+            <button class="wcb wcb-close">✕</button>
+          </div>
+        </div>
+        <div class="win-body sys-body">
+          <div class="sys-tabs">
+            <span class="sys-tab active">General</span>
+            <span class="sys-tab">Device Manager</span>
+            <span class="sys-tab">Performance</span>
+          </div>
+          <div class="sys-panel">
+            <div class="skills-grid">
+              <div class="skill-box">
+                <div class="skill-box-header">Frontend</div>
+                <ul>
+                  <li>HTML &amp; CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Responsive Design</li>
+                </ul>
+              </div>
+              <div class="skill-box">
+                <div class="skill-box-header">Backend</div>
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>REST APIs</li>
+                  <li>SQL / PostgreSQL</li>
+                </ul>
+              </div>
+              <div class="skill-box">
+                <div class="skill-box-header">Tools</div>
+                <ul>
+                  <li>Git &amp; GitHub</li>
+                  <li>VS Code</li>
+                  <li>Figma</li>
+                  <li>Linux / CLI</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="sys-footer">
+            <button class="win-btn">OK</button>
+            <button class="win-btn">Cancel</button>
+            <button class="win-btn">Apply</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS / Windows Explorer -->
+      <section class="win" id="projects">
+        <div class="win-titlebar">
+          <span class="win-title"><span class="win-icon">📁</span> My Projects — Windows Explorer</span>
+          <div class="win-controls">
+            <button class="wcb">_</button>
+            <button class="wcb">□</button>
+            <button class="wcb wcb-close">✕</button>
+          </div>
+        </div>
+        <div class="win-menubar">
+          <span>File</span><span>Edit</span><span>View</span><span>Go</span><span>Favorites</span><span>Help</span>
+        </div>
+        <div class="exp-toolbar">
+          <button class="win-btn toolbar-btn">← Back</button>
+          <button class="win-btn toolbar-btn">→ Forward</button>
+          <button class="win-btn toolbar-btn">↑ Up</button>
+          <div class="address-bar">
+            <span class="address-label">Address</span>
+            <div class="address-input">C:\Users\Nick\Projects</div>
+          </div>
+        </div>
+        <div class="win-body exp-body">
+          <aside class="exp-sidebar">
+            <div class="sidebar-group">
+              <strong>File and Folder Tasks</strong>
+              <ul>
+                <li>Make a new folder</li>
+                <li>Publish this folder</li>
+                <li>Share this folder</li>
+              </ul>
+            </div>
+            <div class="sidebar-group">
+              <strong>Other Places</strong>
+              <ul>
+                <li>My Documents</li>
+                <li>My Computer</li>
+                <li>My Network Places</li>
+              </ul>
+            </div>
+          </aside>
+          <div class="exp-files">
+            <article class="file-item">
+              <div class="file-icon">📁</div>
+              <div class="file-details">
+                <div class="file-name">Project One</div>
+                <span class="file-tag">Full Stack</span>
+                <p class="file-desc">A brief description of what this project does, the problem it solves, and why you built it.</p>
+                <p class="file-tech">React · Node.js · PostgreSQL</p>
+                <div class="file-btns">
+                  <a href="#" class="win-btn small">Live Demo</a>
+                  <a href="#" class="win-btn small">GitHub</a>
+                </div>
+              </div>
+            </article>
+            <article class="file-item">
+              <div class="file-icon">📁</div>
+              <div class="file-details">
+                <div class="file-name">Project Two</div>
+                <span class="file-tag">Frontend</span>
+                <p class="file-desc">A brief description of what this project does, the problem it solves, and why you built it.</p>
+                <p class="file-tech">JavaScript · CSS · API</p>
+                <div class="file-btns">
+                  <a href="#" class="win-btn small">Live Demo</a>
+                  <a href="#" class="win-btn small">GitHub</a>
+                </div>
+              </div>
+            </article>
+            <article class="file-item">
+              <div class="file-icon">📁</div>
+              <div class="file-details">
+                <div class="file-name">Project Three</div>
+                <span class="file-tag">Backend</span>
+                <p class="file-desc">A brief description of what this project does, the problem it solves, and why you built it.</p>
+                <p class="file-tech">Node.js · Express · SQL</p>
+                <div class="file-btns">
+                  <a href="#" class="win-btn small">Live Demo</a>
+                  <a href="#" class="win-btn small">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="win-statusbar">
+          <span>3 object(s)</span>
+        </div>
+      </section>
+
+      <!-- CONTACT / Outlook Express -->
+      <section class="win" id="contact">
+        <div class="win-titlebar">
+          <span class="win-title"><span class="win-icon">📧</span> New Message — Outlook Express</span>
+          <div class="win-controls">
+            <button class="wcb">_</button>
+            <button class="wcb">□</button>
+            <button class="wcb wcb-close">✕</button>
+          </div>
+        </div>
+        <div class="win-menubar">
+          <span>File</span><span>Edit</span><span>View</span><span>Insert</span><span>Format</span><span>Tools</span><span>Help</span>
+        </div>
+        <div class="exp-toolbar">
+          <button class="win-btn toolbar-btn">📤 Send</button>
+          <button class="win-btn toolbar-btn">✂️ Cut</button>
+          <button class="win-btn toolbar-btn">📋 Paste</button>
+          <button class="win-btn toolbar-btn">📎 Attach</button>
+        </div>
+        <div class="win-body email-body">
+          <div class="email-header">
+            <div class="email-field">
+              <span class="ef-label">To:</span>
+              <div class="ef-value">nickfiorentino27@gmail.com</div>
+            </div>
+            <div class="email-field">
+              <span class="ef-label">Cc:</span>
+              <div class="ef-value"></div>
+            </div>
+            <div class="email-field">
+              <span class="ef-label">Subject:</span>
+              <div class="ef-value">Hi Nick! Let's connect.</div>
+            </div>
+          </div>
+          <div class="email-content">
+            <p>I'm currently open to new opportunities. Whether you have a question, a project idea, or just want to say hi — my inbox is open.</p>
+            <div class="contact-btns">
+              <a href="mailto:nickfiorentino27@gmail.com" class="win-btn primary">📧 Say Hello</a>
+            </div>
+            <div class="social-btns">
+              <a href="https://github.com/FiorentinoGames" target="_blank" class="win-btn">GitHub</a>
+              <a href="#" target="_blank" class="win-btn">LinkedIn</a>
+              <a href="#" target="_blank" class="win-btn">YouTube</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <div class="win95-footer">
+    Designed &amp; Built by Nick Fiorentino &mdash; 2026
+  </div>
+
+</body>
+</html>
